@@ -1,0 +1,16 @@
+{
+  "source": "Unity",
+  "applications": [
+    {
+      "app_key": "application.generated.unity.rollaballroelnavarrete.exe",
+      "launch_type": "url",
+      "url": "steam://launch/",
+      "action_manifest_path": "C:\\Users\\rnavarrete2\\Documents\\GitHub\\Rollaball-Module2\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "strings": {
+        "en_us": {
+          "name": "Rollaball - Roel Navarrete [Testing]"
+        }
+      }
+    }
+  ]
+}
