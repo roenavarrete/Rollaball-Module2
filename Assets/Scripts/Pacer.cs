@@ -5,8 +5,8 @@ using UnityEngine;
 public class Pacer : MonoBehaviour
 {
     public float speed = 5.0f;
-    private float xMax = 7.5f;
-    private float xMin = 3.5f;
+    public float xMax;
+    public float xMin;
     private int direction = 1;
 
     // Update is called once per frame
@@ -24,6 +24,6 @@ public class Pacer : MonoBehaviour
             direction *= -1;
             xNew = xMin;
         }
-        transform.position = new Vector3(xNew, 0.75f, -5.25f);
+        transform.position = new Vector3(xNew, transform.position.y, transform.position.z);
     }
 }
